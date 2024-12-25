@@ -1,4 +1,9 @@
 streamlit
 pandas
 plotly
-openpyxl
+numpy
+matplotlib
+seaborn
+statsmodels
+scikit-learn
+pickle-mixin

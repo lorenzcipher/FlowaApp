@@ -345,7 +345,7 @@ with st.spinner('Updating Report...'):
         if st.session_state.uploaded_files:
             # Show the list of uploaded files
             
-            for i, file in enumerate(st.session_state.uploaded_files, start=1):
+            for i, file in enumerate(st.session_state.uploaded_files    , start=1):
                 st.write(f"{i}. {file.name}")
 
            
