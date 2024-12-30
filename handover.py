@@ -292,7 +292,7 @@ with st.spinner('Updating Report...'):
 
 
     revenus = tables[0]
-    depenses = tables[2]
+    depenses = tables[1]
     df_revenus = preprocessing(revenus)
     df_depense = preprocessing(depenses)
 
